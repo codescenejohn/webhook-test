@@ -1,5 +1,5 @@
 const hi = (name) => {
-  if (name.length) {
+  if (name?.length) {
     return `Hi, ${name}`;
   }
 
